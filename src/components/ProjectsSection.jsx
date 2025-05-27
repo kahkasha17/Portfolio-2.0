@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Magma Landing Page",
+    description: "A beautiful landing page app using HTML,CSS,Javascript, Canvas and GSAP with smooth scroll via Locomotive.js.",
+    image: "/projects/project1.PNG",
+    tags: ["HTML", "CSS", "Javascript", "Locomotive.js","GSAP","Canvas Animation"],
+    demoUrl: "https://kahkasha17.github.io/thisismagma-clone/",
+    githubUrl: "https://github.com/kahkasha17/thisismagma-clone",
   },
   {
     id: 2,
@@ -22,13 +22,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Sidecup-Family-Golf",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    image: "/projects/project3.PNG",
+    tags: ["HTML", "CSS", "Javascript","GSAP"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/kahkasha17/Sidecup-Family-Golf",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/kahkasha17"
           >
             Check My Github <ArrowRight size={16} />
           </a>
