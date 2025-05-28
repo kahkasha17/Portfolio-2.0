@@ -3,29 +3,29 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Magma Landing Page",
+    title: "3D Animated Landing Page",
     description: "A beautiful landing page app using HTML,CSS,Javascript, Canvas and GSAP with smooth scroll via Locomotive.js.",
-    image: "/projects/project1.PNG",
-    tags: ["HTML", "CSS", "Javascript", "Locomotive.js","GSAP","Canvas Animation"],
+    image: "/projects/magma.png",
+    tags: ["Locomotive.js","GSAP","Canvas"],
     demoUrl: "https://kahkasha17.github.io/thisismagma-clone/",
     githubUrl: "https://github.com/kahkasha17/thisismagma-clone",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Employee Dashboard",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    image: "/projects/emp.PNG",
+    tags: ["ReactJS", "Tailwind CSS", "Next.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "Sidecup-Family-Golf",
+    title: "Golf Landing Page",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.PNG",
+      "A beautiful landing page app using HTML,CSS,Javascript, and Canvas with smooth scroll via GSAP",
+    image: "/projects/golf.PNG",
     tags: ["HTML", "CSS", "Javascript","GSAP"],
     demoUrl: "#",
     githubUrl: "https://github.com/kahkasha17/Sidecup-Family-Golf",
